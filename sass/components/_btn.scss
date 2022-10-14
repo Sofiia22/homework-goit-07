@@ -1,0 +1,114 @@
+button {
+    cursor: pointer;
+}
+
+.hero__btn {
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.33;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    background-color: #2196F3;
+    border-color: #2196F3;
+    margin-top: 30px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+        color: #ffff;
+    }
+}
+
+.footer__btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: rgba(33, 150, 243, 1);
+    color: #ffffff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: rgba(24, 140, 232, 1);
+    }
+}
+
+.btn__icon {
+    fill: currentColor;
+}
+
+.portfolio__btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+    background-color: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 6px 22px;
+    gap: 8px;
+
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        opacity: 8;
+        cursor: pointer;
+        background-color: #2196F3;
+        color: #FFFFFF;
+    }
+
+}
+
+.form__btn {
+    width: 200px;
+    height: 50px;
+    background: rgba(33, 150, 243, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: rgba(24, 140, 232, 1);
+    }
+}
